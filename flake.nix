@@ -7,8 +7,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     gdextension-hello-nix = {
-      #url = "git+https://github.com/goatchurchprime/gdextension-hello-nix?submodules=1";
-      url = "git+https://github.com/goatchurchprime/two-voip-godot-4?submodules=1";
+      url = "git+https://github.com/goatchurchprime/gdextension-hello-nix?submodules=1";
       flake = false;
     };
     flake-utils.url = "github:numtide/flake-utils";

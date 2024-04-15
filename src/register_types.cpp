@@ -14,18 +14,33 @@ class HelloNixNode : public Node {
     GDCLASS(HelloNixNode, Node)
 
 protected:
-    static void _bind_methods();
+    static void _bind_methods(); 
 
 public:
-    String sayhi(int v) {
-        if (v == 1) return String("Hi");
-        else if (v == 2) return String("Bye");
-        return String("Nixed!");
-    }
-
+    int sayhi(int v);
+    
     HelloNixNode();
     ~HelloNixNode();
 };
+
+int HelloNixNode::sayhi(int v) {
+    return v*10;
+}
+/*String HelloNixNode::sayhi(int v) {
+    if (v == 1) return String("Hi");
+    else if (v == 2) return String("Bye");
+    return String("Nixed!");
+}*/
+
+
+HelloNixNode::HelloNixNode() {
+}
+HelloNixNode::~HelloNixNode() {
+}
+
+void HelloNixNode::_bind_methods() {
+    ClassDB::bind_method(D_METHOD("sayhi", "v"), &HelloNixNode::sayhi);
+}
 
 
 void initialize_hello_nix(ModuleInitializationLevel p_level) {

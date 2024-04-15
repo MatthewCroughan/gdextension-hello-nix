@@ -21,19 +21,19 @@
     "gdextension-hello-nix": {
       "flake": false,
       "locked": {
-        "lastModified": 1713203872,
-        "narHash": "sha256-Hs3hJhi7FKLpA2mxlZ/1SbwKG5HeGHZPOeHWBxEL4qM=",
+        "lastModified": 1713207832,
+        "narHash": "sha256-CtGY3/s3mDPt+8XJzASxkGMK7xm9CfsSmyzB4EaqgJw=",
         "ref": "refs/heads/main",
-        "rev": "2b4d55dcc7f420e2ca92919b2ca0c99fb4dbd964",
-        "revCount": 18,
+        "rev": "eedc224c4d2f7f5e58c21fd02952095e9342bc6e",
+        "revCount": 1,
         "submodules": true,
         "type": "git",
-        "url": "https://github.com/goatchurchprime/two-voip-godot-4"
+        "url": "https://github.com/goatchurchprime/gdextension-hello-nix"
       },
       "original": {
         "submodules": true,
         "type": "git",
-        "url": "https://github.com/goatchurchprime/two-voip-godot-4"
+        "url": "https://github.com/goatchurchprime/gdextension-hello-nix"
       }
     },
     "nixpkgs": {
