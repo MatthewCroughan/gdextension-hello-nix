@@ -18,22 +18,21 @@
         "type": "github"
       }
     },
-    "gdextension-hello-nix": {
+    "godot-cpp": {
       "flake": false,
       "locked": {
-        "lastModified": 1713207832,
-        "narHash": "sha256-CtGY3/s3mDPt+8XJzASxkGMK7xm9CfsSmyzB4EaqgJw=",
-        "ref": "refs/heads/main",
-        "rev": "eedc224c4d2f7f5e58c21fd02952095e9342bc6e",
-        "revCount": 1,
-        "submodules": true,
-        "type": "git",
-        "url": "https://github.com/goatchurchprime/gdextension-hello-nix"
+        "lastModified": 1701935911,
+        "narHash": "sha256-fbFjb/A1Am2BVxC16+a9X7ZebwtrEj81JCBlEttevTM=",
+        "owner": "godotengine",
+        "repo": "godot-cpp",
+        "rev": "48afa82f29354668c12cffaf6a2474dabfd395ed",
+        "type": "github"
       },
       "original": {
-        "submodules": true,
-        "type": "git",
-        "url": "https://github.com/goatchurchprime/gdextension-hello-nix"
+        "owner": "godotengine",
+        "repo": "godot-cpp",
+        "rev": "48afa82f29354668c12cffaf6a2474dabfd395ed",
+        "type": "github"
       }
     },
     "nixpkgs": {
@@ -73,7 +72,7 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
-        "gdextension-hello-nix": "gdextension-hello-nix",
+        "godot-cpp": "godot-cpp",
         "nixpkgs": "nixpkgs"
       }
     }
